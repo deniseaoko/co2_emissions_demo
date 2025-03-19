@@ -201,7 +201,7 @@ fig_map = px.choropleth(
     title="Global CO2 Emissions (1990-2022)",
 )
 
-fig_map.show()
+fig_map
 ```
 
 
@@ -220,13 +220,17 @@ show(table_df)
 ## Chart
 
 ```{python}
-fig_chart.show()
+fig_chart
 ```
 
 ## Map
 
 ```{python}
-fig_map.show()
+fig_map
+```
+
+```{python}
+pip install jupyter
 ```
 
 :::
